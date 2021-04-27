@@ -1,0 +1,913 @@
+<?xml version="1.0"?>
+<DataXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <questionHint>Suatu cara untuk mewakili besaran dari satuan sistem fisik disebut </questionHint>
+      <Info>Suatu cara untuk mewakili besaran dari satuan sistem fisik disebut </Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Sistem</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo> Sistem Bilangan</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sistem Komputer</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sistem Base </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Sistem Restore</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Sistem bilangan yang menggunakan radiks atau basis 2 disebut</questionHint>
+      <Info>Sistem bilangan yang menggunakan radiks atau basis 2 disebut</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Biner</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Desimal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Oktal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Hexadesimal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>ASCII</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Sistem bilangan yang menggunakan radiks atau basis 16 disebut</questionHint>
+      <Info>Sistem bilangan yang menggunakan radiks atau basis 16 disebut</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Hexadecimal</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Binary</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Octal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>BIN</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Hexagonal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>false</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Angka pada biner</questionHint>
+      <Info>Angka / Karakter yang terdapat pada bilangan biner adalah</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>1 dan 0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1, 2, 3,4 ,5</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>A dan B</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>4 dan 5</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>8 dan 0</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>16AB bilangan disamping merupakan bilangan</questionHint>
+      <Info />
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Oktal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Hexadesimal</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Binary</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Desimal</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Binary: 1011 apabila diubah ke Desimal hasilnya</questionHint>
+      <Info />
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>8</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>11</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>10</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>9</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>12</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>16</Timer>
+      <Type>Single</Type>
+      <AddScore>0</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Pada sistem bilangan heksadesimal angka 10 ditunjukan dengan simbol</questionHint>
+      <Info>Pada sistem bilangan heksadesimal angka 10 ditunjukan dengan simbol</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>A</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>B</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>C</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>D</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>E</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Hexadesimal: 56DE, apabila diubah ke Biner hasilnya</questionHint>
+      <Info>Hexadesimal: 56DE, apabila diubah ke Biner hasilnya</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>0101 0110 1101 1110</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1010 0101 0111 1001 </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1110 0101 1101 1011 </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>21</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Biner: 0101 0011, ubahlah ke Hexadesimal</questionHint>
+      <Info>Biner: 0101 0011, ubahlah ke Hexadesimal</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>53</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>83</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>5A</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>5B</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>21</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Biner: 0101 0011, ubahlah ke Octal</questionHint>
+      <Info>Biner: 0101 0011, ubahlah ke Octal</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>123</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>124</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>125</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>255</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>21</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Octal: 21, ubahlah ke Desimal</questionHint>
+      <Info>Octal: 21, ubahlah ke Desimal</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>21</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>17</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>11</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>18</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>22</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>21</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Desimal: 25, manakah yang merupakan hasil pada Hexadesimal dan Octal</questionHint>
+      <Info>Desimal: 25, manakah yang merupakan hasil pada Hexadesimal dan Octal</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>HEX 19; OCT 31</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>HEX 19; OCT 25</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>HEX 31; OCT 19</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>HEX 25; OCT 19</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>HEX 19; OCT 19</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>26</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Angka pada bilangan oktal yaitu</questionHint>
+      <Info>Angka pada bilangan oktal yaitu</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>0, 1, 2, 3, 4, 5, 6, 7</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1, 2, 3, 4, 5, 6, 7, 8</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0, 1, 2, 3, 4, 5, 6 ,7, 8</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1, 2, 3, 4, 5, 6, 7</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>16</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Sistem Oktal memiliki basis</questionHint>
+      <Info>Sistem Oktal memiliki basis</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>2</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>8</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>10</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>16</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Di bawah ini yang menghasilkan output Desimal 40 adalah</questionHint>
+      <Info>Di bawah ini yang menghasilkan output Desimal 40 adalah</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>HEX: 28</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>OCT: 50</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>BIN: 0010 1000</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>HEX: 26</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>BIN: 0001 1100</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>BIN: 0010 1010</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>26</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+	<Question>
+      <questionHint>Gambar AND</questionHint>
+      <Info>Gambar di samping adalah gambar...</Info>
+      <questionType>Image</questionType>
+      <questionImageName>and_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>AND Gate</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOT Gate</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NAND Gate</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOR GATE</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Operator yang digunakan untuk membandingkan dua buah nilai logika disebut ....</questionHint>
+      <Info>Operator yang digunakan untuk membandingkan dua buah nilai logika disebut ....</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Relasi Logik</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang Logika </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Relasi Link </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo> Operator Logika</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Operator relasi </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Output sesuai gambar di samping apabila input berupa 1 (NOT)</questionHint>
+      <Info>Sesuai gambar disamping, apabila input 1 (true) maka ouputnya...</Info>
+      <questionType>Image</questionType>
+      <questionImageName>not_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Yang merupakan operator logika dasar</questionHint>
+      <Info>Yang merupakan operator logika dasar</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>IN</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>XOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>OR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>16</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NOT)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>not_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (OR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>or_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NAND)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>nand_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>nor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (XOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XOR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (XNOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xnor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XNOR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar XNOR IO</questionHint>
+      <Info>Jika inputnya 1 dan 0, maka output yang dihasilkan</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xnor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar OR</questionHint>
+      <Info>Jika input 1 dan 0, maka outputnya</Info>
+      <questionType>Image</questionType>
+      <questionImageName>or_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 1</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gerbang NAND merupakan kombinasi dari gerbang</questionHint>
+      <Info>Gerbang NAND merupakan kombinasi dari gerbang</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>AND dan OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND dan AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND dan NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo> AND dan NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gerbang yang keduanya harus 1 agar output 1 adalah</questionHint>
+      <Info>Gerbang yang keduanya harus 1 agar output 1 adalah</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XNOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Pada gerbang XOR, jika kedua input bernilai 1, maka outputnya</questionHint>
+      <Info>Pada gerbang XOR, jika kedua input bernilai 1, maka outputnya</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 0</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0 0</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+  </Questions>
+</DataXML>
