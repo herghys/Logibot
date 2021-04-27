@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menus/Intro.unity
+    guid: 33f1e1252730e7d45baa0c180a4519ef
+  - enabled: 1
+    path: Assets/Scenes/Menus/MainMenu.unity
+    guid: dae4695933599054f938d69d22c528b8
+  - enabled: 1
+    path: Assets/Scenes/Menus/Materi.unity
+    guid: 7413c0644c735ab439932fb16ceeaef2
+  - enabled: 1
+    path: Assets/Scenes/Menus/LevelSelection.unity
+    guid: 3eade3759500256438d789f9c3222f24
+  - enabled: 1
+    path: Assets/Scenes/Menus/Loading.unity
+    guid: d88e055b016f4074ba43ac934ffc8109
+  - enabled: 1
+    path: Assets/Scenes/Game/Quiz/QuizGame.unity
+    guid: 62e15f1ace57a884ebdbed09078e95f6
+  - enabled: 1
+    path: Assets/Scenes/Game/Puzzle/Puzzle_Tutorial.unity
+    guid: bef0e29e02bc68c4c898991fff87542a
+  - enabled: 1
+    path: Assets/Scenes/Game/Puzzle/Puzzle_ 1.unity
+    guid: f00750b8598ab29439dd4d58a6aabc90
+  - enabled: 1
+    path: Assets/Scenes/Game/Puzzle/Puzzle_ 2.unity
+    guid: 196797c14a35d7147bf6f6600a055352
+  - enabled: 1
+    path: Assets/Scenes/Game/Puzzle/Puzzle_ 3.unity
+    guid: d54512d408a89e84195de4ffa0a4b20d
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f916e8f5ec587ee4c9b5696c761a0acc, type: 2}
