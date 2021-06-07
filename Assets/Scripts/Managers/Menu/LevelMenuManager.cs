@@ -10,6 +10,8 @@ using UnityEngine.SceneManagement;
 public class LevelMenuManager : MonoBehaviour
 {
     [SerializeField] int totalLevel;
+    [SerializeField] WorkInProgress wip;
+
     private int unlockedLevels;
     private bool tutorialFinished;
     public Button[] levelButtons;
@@ -29,6 +31,8 @@ public class LevelMenuManager : MonoBehaviour
             levelButtons = GameObject.FindGameObjectsWithTag("LevelButton")
             .Select(obj => obj.GetComponent<Button>()).ToArray();
         }
+
+        wip = GetComponent<WorkInProgress>();
     }
 
     private void Start()
@@ -112,6 +116,11 @@ public class LevelMenuManager : MonoBehaviour
     public void GoToMenu(string scene)
     {
         fader.FadeTo(scene);
+    }
+
+    public void WorkInProgress()
+    {
+        wip.ShowWIP();
     }
     #endregion
 }

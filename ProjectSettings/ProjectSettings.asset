@@ -127,7 +127,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: Alpha1.9
+  bundleVersion: 1.0
   preloadedAssets:
   - {fileID: 11400000, guid: f916e8f5ec587ee4c9b5696c761a0acc, type: 2}
   - {fileID: 102900000, guid: 33f1e1252730e7d45baa0c180a4519ef, type: 3}
@@ -150,12 +150,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: a.Herghys.Logibot
+    Android: com.Herghys.LogibotChamber
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
@@ -819,7 +819,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Android: 1
+    Android: 0
     Standalone: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel:
