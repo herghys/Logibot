@@ -457,7 +457,7 @@
       <Type>Multi</Type>
       <AddScore>10</AddScore>
     </Question>
-	<Question>
+    <Question>
       <questionHint>Gambar AND</questionHint>
       <Info>Gambar di samping adalah gambar...</Info>
       <questionType>Image</questionType>

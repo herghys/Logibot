@@ -1,0 +1,131 @@
+{
+    "m_SelectedDeviceId": "6587d07b7d53",
+    "m_SelectedPackage": {
+        "deviceId": "6587d07b7d53",
+        "name": "com.Herghys.LogibotChamber",
+        "processId": 7767,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 1783,
+            "exited": true
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 23547,
+            "exited": true
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 23551,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 23548,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 23549,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 23550,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 9172,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 9173,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 9174,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 9175,
+            "exited": false
+        },
+        {
+            "deviceId": "6587d07b7d53",
+            "name": "com.Herghys.LogibotChamber",
+            "processId": 7767,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}

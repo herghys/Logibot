@@ -23,6 +23,7 @@ public class LogicalObject : MonoBehaviour
     [SerializeField] public  MeshRenderer renderToChange;
     public void ChangeSource()
     {
+        AudioManager.Instance.PlaySound("ToggleSFX");
         outputValue = !outputValue;
         outputByte = Convert.ToByte(outputValue);
     }

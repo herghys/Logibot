@@ -26,6 +26,9 @@ public class Sound
     [SerializeField] SoundParameters parameters = new SoundParameters();
     public SoundParameters Parameters { get { return parameters; } }
 
+    [SerializeField] bool isPlayed;
+    public bool Played { get { return isPlayed; } set { isPlayed = value; } }
+
     [HideInInspector]
     public AudioSource Source = null;
     #endregion
@@ -49,6 +52,7 @@ public class Sound
 public class AudioManager : MonoBehaviour
 {
     #region Variables
+    public static bool isMuted;
     public static AudioManager Instance = null;
 
     [SerializeField] Sound[] sounds = null;
@@ -108,12 +112,13 @@ public class AudioManager : MonoBehaviour
         var sound = GetSound(name);
         if (sound != null)
         {
-            sound.Play();    
+            sound.Play();
         }
         else
         {
             Debug.LogWarning("Sound by the name " + name + " is not found! Issues occured at AudioManager.PlaySound()");
         }
+        sound.Played = true;
     }
     /// <summary>
     /// Stop Sound
@@ -130,6 +135,17 @@ public class AudioManager : MonoBehaviour
         {
             Debug.LogWarning("Sound by the name " + name + " is not found! Issues occured at AudioManager.StopSound()");
         }
+        sound.Played = false;
+    }
+
+    public bool GetMusicState(string name)
+    {
+        var sound = GetSound(name);
+        if(sound != null)
+        {
+            return sound.Played;
+        }
+        return sound.Played;
     }
 
     public void StopAll()
@@ -153,6 +169,7 @@ public class AudioManager : MonoBehaviour
             else
             {
                 StartCoroutine(SoundPause(name, paused, 0));
+                StopSound(name);
             }
         }
         else

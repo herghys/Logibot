@@ -30,7 +30,7 @@ public class Question
     #region Functions
     public List<int> GetCorrectAnswers()
     {
-        List<int> CorrectAnswers = new List<int>();  
+        List<int> CorrectAnswers = new List<int>();
         for (int i = 0; i < Answers.Length; i++)
         {
             if (Answers[i].IsCorrect)

@@ -9,12 +9,19 @@ public class MateriManager : MonoBehaviour
     public AnimationCurve curve;
     public VideoPlayer[] videos;
 
-    private void Start()
+    bool musicPlayed;
+
+    private void Awake()
     {
+        if(AudioManager.Instance.GetMusicState("MainMusic")) AudioManager.Instance.ToggleMusic("MainMusic", true);
+
+        musicPlayed = AudioManager.Instance.GetMusicState("MateriMusic");
+        AudioManager.Instance.PlaySound("MateriMusic");
     }
 
     public void GoToScene(string scene)
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         fader.FadeTo(scene);
     }
 
@@ -26,7 +33,7 @@ public class MateriManager : MonoBehaviour
         else
             StartCoroutine(CloseAnim(target, 1));
         //target.alpha = 0;
-
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         target.interactable = !target.interactable;
         target.blocksRaycasts = !target.blocksRaycasts;
     }
@@ -63,8 +70,8 @@ public class MateriManager : MonoBehaviour
         }
     }
 
-    public void ToggleMusic(bool pause)
+    private void OnDisable()
     {
-        AudioManager.Instance.ToggleMusic("MateriMusic", pause);
+            AudioManager.Instance.StopSound("MateriMusic");
     }
 }

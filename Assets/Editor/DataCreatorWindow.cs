@@ -108,7 +108,7 @@ public class DataCreatorWindow : EditorWindow
         pressed = GUI.Button(buttonRect, "New", EditorStyles.miniButton);
         if (pressed)
         {
-            path = string.Empty;
+            path = Application.streamingAssetsPath;
             data = new DataXML
             {
                 Questions = new Question[0]

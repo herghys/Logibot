@@ -81,7 +81,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _WidthHeightRadius: {r: 124.963554, g: 49.738583, b: 31.67, a: 0}
+    - _WidthHeightRadius: {r: 124.97982, g: 49.807533, b: 31.67, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6679705433783629661
 MonoBehaviour:

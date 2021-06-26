@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+<DataXML xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <questionHint>Gambar AND</questionHint>
+      <Info>Gambar di samping adalah gambar...</Info>
+      <questionType>Image</questionType>
+      <questionImageName>and_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>AND Gate</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOT Gate</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NAND Gate</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOR GATE</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Operator yang digunakan untuk membandingkan dua buah nilai logika disebut ....</questionHint>
+      <Info>Operator yang digunakan untuk membandingkan dua buah nilai logika disebut ....</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Relasi Logik</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang Logika </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Relasi Link </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo> Operator Logika</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Operator relasi </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Output sesuai gambar di samping apabila input berupa 1 (NOT)</questionHint>
+      <Info>Sesuai gambar disamping, apabila input 1 (true) maka ouputnya...</Info>
+      <questionType>Image</questionType>
+      <questionImageName>not_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Yang merupakan operator logika dasar</questionHint>
+      <Info>Yang merupakan operator logika dasar</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>NOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>IN</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>XOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>OR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>16</Timer>
+      <Type>Multi</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NOT)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>not_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (OR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>or_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NAND)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>nand_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (NOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>nor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (XOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XOR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar di samping adalah (XNOR)</questionHint>
+      <Info>Gambar di samping adalah</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xnor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XNOR</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar XNOR IO</questionHint>
+      <Info>Jika inputnya 1 dan 0, maka output yang dihasilkan</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xnor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gambar OR</questionHint>
+      <Info>Jika input 1 dan 0, maka outputnya</Info>
+      <questionType>Image</questionType>
+      <questionImageName>or_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 1</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gerbang NAND merupakan kombinasi dari gerbang</questionHint>
+      <Info>Gerbang NAND merupakan kombinasi dari gerbang</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>AND dan OR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND dan AND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>AND dan NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo> AND dan NOT</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Gerbang yang keduanya harus 1 agar output 1 adalah</questionHint>
+      <Info>Gerbang yang keduanya harus 1 agar output 1 adalah</Info>
+      <questionType>Text</questionType>
+      <questionImageName />
+      <Answers>
+        <Answer>
+          <AnswerInfo>Gerbang NOT</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang AND</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NAND</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang NOR </AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>Gerbang XNOR</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+    <Question>
+      <questionHint>Pada gerbang XOR, jika kedua input bernilai 1, maka outputnya</questionHint>
+      <Info>Pada gerbang XOR, jika kedua input bernilai 1, maka outputnya</Info>
+      <questionType>Image</questionType>
+      <questionImageName>xor_gate</questionImageName>
+      <Answers>
+        <Answer>
+          <AnswerInfo>1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0</AnswerInfo>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 0</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>1 1</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <AnswerInfo>0 0</AnswerInfo>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>11</Timer>
+      <Type>Single</Type>
+      <AddScore>10</AddScore>
+    </Question>
+  </Questions>
+</DataXML>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class LevelMenuManager : MonoBehaviour
 {
@@ -17,9 +19,12 @@ public class LevelMenuManager : MonoBehaviour
     public Button[] levelButtons;
     public SceneFader fader;
 
+    [SerializeField] bool musicPlayed;
+
     #region Unity Defaults
     private void Awake()
     {
+        musicPlayed = AudioManager.Instance.GetMusicState("MainMusic");
         unlockedLevels = GameData.unlockedLevels;
         tutorialFinished = Convert.ToBoolean(PlayerPrefs.GetInt("TutorialFinished"));
 
@@ -37,6 +42,7 @@ public class LevelMenuManager : MonoBehaviour
 
     private void Start()
     {
+        if (!musicPlayed) AudioManager.Instance.PlaySound("MainMusic");
         totalLevel = levelButtons.Length;
         LevelsUnlocker(unlockedLevels);
     }
@@ -66,6 +72,7 @@ public class LevelMenuManager : MonoBehaviour
     #region Panel Opener
     public void PanelOpener(CanvasGroup targetGroup)
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         if (targetGroup.alpha == 0)
         {
             targetGroup.alpha = 1;
@@ -110,6 +117,9 @@ public class LevelMenuManager : MonoBehaviour
     {
         AudioManager.Instance.StopAll();
         GameData.QuizMateri = quizMateri;
+
+        //Debug.Log(GameData.xmlFile + GameData.QuizMateri + ".xml");
+
         fader.FadeTo("QuizGame");
     }
 
@@ -120,6 +130,7 @@ public class LevelMenuManager : MonoBehaviour
 
     public void WorkInProgress()
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         wip.ShowWIP();
     }
     #endregion

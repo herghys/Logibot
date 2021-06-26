@@ -16,6 +16,7 @@ public struct UIMenuElements
     public Animation anim;
     public TMP_Dropdown QualitySettingDropdown;
 }
+
 [Serializable]
 public class MainMenuManager : MonoBehaviour
 {
@@ -23,7 +24,8 @@ public class MainMenuManager : MonoBehaviour
 
     private int unlockedLevel;
     private int uiStateParaHash = 0;
-    
+
+    [SerializeField] bool musicPlayed;
 
     private IEnumerator IE_Menu, IE_PostFX;
 
@@ -32,10 +34,14 @@ public class MainMenuManager : MonoBehaviour
         unlockedLevel = PlayerPrefs.GetInt("UnlockedLevels");
         uiStateParaHash = Animator.StringToHash("MenuState");
         uiMenuElements.QualitySettingDropdown.value = PlayerPrefs.GetInt("Quality");
+
+        musicPlayed = AudioManager.Instance.GetMusicState("MainMusic");
     }
 
     void Start()
     {
+        if(!musicPlayed) AudioManager.Instance.PlaySound("MainMusic");
+
         IE_Menu = OpenMainMenu();
         CheckUnlockedLevel(unlockedLevel);
        
@@ -57,10 +63,12 @@ public class MainMenuManager : MonoBehaviour
 
     public void ExitGame()
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         Application.Quit();
     }
     public void ChangeQuality()
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         var level = uiMenuElements.QualitySettingDropdown.value;
         QualityManager.Instance.SetQuality((QualityLevels)level);
     }
@@ -89,6 +97,12 @@ public class MainMenuManager : MonoBehaviour
     #region Panel Opener
     public void PanelOpener(GameObject targetObject)
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
+        targetObject.SetActive(!targetObject.activeSelf);
+    }
+
+    public void PanelOpener(GameObject targetObject, bool isStart)
+    {
         targetObject.SetActive(!targetObject.activeSelf);
     }
     #endregion
@@ -96,15 +110,22 @@ public class MainMenuManager : MonoBehaviour
     #region SceneFader
     public void NextScene(string sceneName)
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         IE_Menu = CloseMainMenu();
         StartCoroutine(IE_Menu);
         uiMenuElements.sceneFader.FadeTo(sceneName);
     }
     public void NextSceneIndex(int sceneIndex)
     {
+        AudioManager.Instance.PlaySound("MenuTickSFX");
         IE_Menu = CloseMainMenu();
         StartCoroutine(IE_Menu);
         uiMenuElements.sceneFader.FadeToIndex(sceneIndex);
     }
     #endregion
+
+    private void OnDisable()
+    {
+        
+    }
 }
