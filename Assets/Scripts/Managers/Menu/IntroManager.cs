@@ -8,11 +8,8 @@ using UnityEngine.UI;
 using UnityEngine.Android;
 #endif
 
-
-[RequireComponent(typeof(Slider))]
 public class IntroManager : MonoBehaviour
 {
-    [SerializeField] LoadingUI loadingUI = new LoadingUI();
     private IEnumerator IE_LoadAsync;
 
     private void Start()
@@ -37,6 +34,7 @@ public class IntroManager : MonoBehaviour
         StartCoroutine(IE_LoadAsync);       
     }
 
+#if PLATFORM_ANDROID
     IEnumerator RequestPermissionRoutine()
     {
         if (!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageRead))
@@ -46,16 +44,13 @@ public class IntroManager : MonoBehaviour
         }
         yield return new WaitForSeconds(2);
     }
-
+#endif
     IEnumerator LoadAsync(string scene)
     {
         AsyncOperation loadOperation = SceneManager.LoadSceneAsync(scene);
 
         while (!loadOperation.isDone)
         {
-            float progress = Mathf.Clamp01(loadOperation.progress / 0.9f);
-            loadingUI.loadingText.text = (progress * 100).ToString() + "%";
-            loadingUI.loadingSlider.value = progress;
             yield return new WaitForSeconds (1);
         }
     }
