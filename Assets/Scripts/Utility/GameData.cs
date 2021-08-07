@@ -6,6 +6,7 @@ using System;
 
 public static class GameData
 {
+    public static string gameVersion;
     //Puzzle
     public static string previousScene;
     public static string levelToLoad;

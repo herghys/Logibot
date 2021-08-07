@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -24,11 +22,11 @@ public class QualityManager : MonoBehaviour
     public static QualityManager Instance = null;
 
     [SerializeField] Quality[] qualities;
-    [SerializeField] int qualityPrefs;
+    //[SerializeField] int qualityPrefs;
 
     private void Awake()
     {
-        qualityPrefs = PlayerPrefs.GetInt("Quality");
+        //qualityPrefs = PlayerPrefs.GetInt("Quality");
         if (Instance != null)
         { Destroy(gameObject); }
         else
@@ -40,7 +38,7 @@ public class QualityManager : MonoBehaviour
 
     private void Start()
     {
-        QualitySettings.SetQualityLevel(qualityPrefs);
+        QualitySettings.SetQualityLevel(2);
     }
 
     private void SetPrefs(int qualityLevel)

@@ -1,31 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
+using TMPro;
 
 public class GetVersion : MonoBehaviour
 {
-    public Text gameVer;
-    public Text unityVer;
-    public SceneFader sceneFade;
-    void Start()
+    public TextMeshProUGUI gameVer;
+    void Awake()
     {
-        gameVer.text = "Game Version " + Application.version;
-        unityVer.text = "Made with Unity " + Application.unityVersion;
+        gameVer.text = GameData.gameVersion;
     }
 
-    // Update is called once per frame
-    public void BackToMenu()
-    {
-        sceneFade.FadeTo("MainMenu");
-    }
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            sceneFade.FadeTo("MainMenu");
-        }
-    }
     public void Facebook()
     {
         Application.OpenURL("https://www.facebook.com/herghys");

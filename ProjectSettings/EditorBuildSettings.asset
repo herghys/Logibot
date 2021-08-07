@@ -7,7 +7,10 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menus/Intro.unity
-    guid: 33f1e1252730e7d45baa0c180a4519ef
+    guid: d1c7bb36e93752948bfe36b791a2fb48
+  - enabled: 1
+    path: Assets/Scenes/Menus/Persist.unity
+    guid: 649bab62294b14e41aef59dda79e53b7
   - enabled: 1
     path: Assets/Scenes/Menus/MainMenu.unity
     guid: dae4695933599054f938d69d22c528b8
@@ -35,5 +38,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Puzzle/Puzzle_ 3.unity
     guid: d54512d408a89e84195de4ffa0a4b20d
-  m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: f916e8f5ec587ee4c9b5696c761a0acc, type: 2}
+  m_configObjects: {}

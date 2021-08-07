@@ -70,6 +70,8 @@ public class QuizGameManager : MonoBehaviour
 
     private void Start()
     {
+        AudioManager.Instance.PlaySound("QuizMusic");
+
         events.StartUpHighScore = PlayerPrefs.GetInt(GameData.QuizHichcoreSaveKey);
 
         sceneName = SceneManager.GetActiveScene().name.ToString();
@@ -194,10 +196,10 @@ public class QuizGameManager : MonoBehaviour
 
     private void SetHighScore()
     {
-        var highscore = PlayerPrefs.GetInt(GameData.QuizHichcoreSaveKey);
+        var highscore = PlayerPrefs.GetInt(GameData.QuizHichcoreSaveKey + GameData.QuizMateri);
         if (highscore < events.currentFinalScore)
         {
-            PlayerPrefs.SetInt(GameData.QuizHichcoreSaveKey, events.currentFinalScore);
+            PlayerPrefs.SetInt(GameData.QuizHichcoreSaveKey + GameData.QuizMateri, events.currentFinalScore);
         }
     }
 
@@ -301,10 +303,10 @@ public class QuizGameManager : MonoBehaviour
         var streamingPath = Path.Combine(GameData.streamingXmlPath, GameData.xmlFile + GameData.QuizMateri + ".xml");
         var gameFile = GameData.xmlFile + GameData.QuizMateri + ".xml";
 
-        #if UNITY_EDITOR
+        #if UNITY_EDITOR || UNITY_STANDALONE
         data = DataXML.Fetch(streamingPath);
         #else
-        data= DataXML.Fetch(gameFile);
+        data = DataXML.Fetch(gameFile);
         #endif
     }
     #endregion

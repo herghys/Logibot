@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "6587d07b7d53",
         "name": "com.Herghys.LogibotChamber",
-        "processId": 7767,
+        "processId": 2512,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,67 +11,25 @@
         {
             "deviceId": "6587d07b7d53",
             "name": "com.Herghys.LogibotChamber",
-            "processId": 1783,
-            "exited": true
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 23547,
-            "exited": true
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 23551,
+            "processId": 2518,
             "exited": false
         },
         {
             "deviceId": "6587d07b7d53",
             "name": "com.Herghys.LogibotChamber",
-            "processId": 23548,
+            "processId": 2522,
             "exited": false
         },
         {
             "deviceId": "6587d07b7d53",
             "name": "com.Herghys.LogibotChamber",
-            "processId": 23549,
+            "processId": 2528,
             "exited": false
         },
         {
             "deviceId": "6587d07b7d53",
             "name": "com.Herghys.LogibotChamber",
-            "processId": 23550,
-            "exited": false
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 9172,
-            "exited": false
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 9173,
-            "exited": false
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 9174,
-            "exited": false
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 9175,
-            "exited": false
-        },
-        {
-            "deviceId": "6587d07b7d53",
-            "name": "com.Herghys.LogibotChamber",
-            "processId": 7767,
+            "processId": 2512,
             "exited": false
         }
     ],

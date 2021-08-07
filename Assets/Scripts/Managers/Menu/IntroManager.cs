@@ -1,80 +1,62 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-#if PLATFORM_ANDROID
-using UnityEngine.Android;
-#endif
+using TMPro;
 
 public class IntroManager : MonoBehaviour
 {
-    private IEnumerator IE_LoadAsync;
+    [SerializeField] Slider slider;
+    [SerializeField] TextMeshProUGUI loadingText;
 
-    private void Start()
+    [SerializeField] string sceneToLoad;
+
+    int qualityPrefs;
+    IEnumerator IE_LoadAsync;
+    AsyncOperation asyncLoad;
+
+    private void OnEnable()
     {
-        /*if (!Directory.Exists(GameData.persistentXmlPath))
-        {
-            Directory.CreateDirectory(GameData.persistentXmlPath);
-        }
-        if (!Directory.Exists(GameData.usedPersistPath))
-        {
-            Directory.CreateDirectory(GameData.usedPersistPath);
-        }*/
-
-#if UNITY_ANDROID
-        StartCoroutine(RequestPermissionRoutine());
-#endif
-
-        IE_LoadAsync = LoadAsync("MainMenu");
-        /*StartCoroutine(CopyPersist(GameData.xmlFile + "3.1.xml"));
-        StartCoroutine(CopyPersist(GameData.xmlFile + "3.2.xml"));
-        StartCoroutine(CopyPersist(GameData.xmlFile + "Mix.xml"));*/
-        StartCoroutine(IE_LoadAsync);       
+        SceneManager.LoadScene("Persist", LoadSceneMode.Additive);
+    }
+    private void Awake()
+    {
+        Debug.Log("Masuk Intro");
+        qualityPrefs = PlayerPrefs.GetInt("Quality");
     }
 
-#if PLATFORM_ANDROID
-    IEnumerator RequestPermissionRoutine()
+    void Start()
     {
-        if (!Permission.HasUserAuthorizedPermission(Permission.ExternalStorageRead))
-        {
-            Permission.RequestUserPermission(Permission.ExternalStorageRead);
-            Permission.RequestUserPermission(Permission.ExternalStorageWrite);
-        }
-        yield return new WaitForSeconds(2);
-    }
-#endif
-    IEnumerator LoadAsync(string scene)
-    {
-        AsyncOperation loadOperation = SceneManager.LoadSceneAsync(scene);
-
-        while (!loadOperation.isDone)
-        {
-            yield return new WaitForSeconds (1);
-        }
+        //Application.version + "-" + Application.platform;
+        GameData.gameVersion = string.Format("Game Ver. {0} ({1})", Application.version.ToString(), Application.platform.ToString());
+        Debug.Log(GameData.gameVersion);
+        IE_LoadAsync = LoadScene("MainMenu");
+        StartCoroutine(IE_LoadAsync);
+        SceneManager.UnloadSceneAsync("Persist");
     }
 
-    /*IEnumerator CopyPersist(string file)
+    private IEnumerator LoadScene(string scene)
     {
-        var streampath = Path.Combine(GameData.streamingXmlPath, file);
-        var newPath = Path.Combine(GameData.persistentXmlPath,file);
-        WWW www = new WWW(streampath);
-        yield return www;
+        asyncLoad = SceneManager.LoadSceneAsync(scene);
+        asyncLoad.allowSceneActivation = false;
 
-        if (File.Exists(newPath))
+        while (!asyncLoad.isDone)
         {
-            yield return new WaitForSeconds(1);
-        }
-        else
-        {
-            while (!www.isDone)
-            {
-                float progress = www.progress;
-                loadingUI.loadingText.text = "Downloading " + file + "... " + progress.ToString() + "%";
-                yield return new WaitForSeconds(2);
+            slider.value = Mathf.Clamp01(asyncLoad.progress / 0.9f);
+            if (asyncLoad.progress >= 0.9f)
+            {               
+                loadingText.text = "Tap to Continue";
             }
-            File.WriteAllBytes(newPath, www.bytes);
+            yield return null;
+        }     
+    }
+
+    public void Tap()
+    {
+        if (asyncLoad.progress >= 0.9f)
+        {
+            QualitySettings.SetQualityLevel(qualityPrefs);
+            asyncLoad.allowSceneActivation = true;
         }
-    }*/
+    }
 }

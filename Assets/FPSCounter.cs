@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class FPSCounter : MonoBehaviour
@@ -18,7 +16,6 @@ public class FPSCounter : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame

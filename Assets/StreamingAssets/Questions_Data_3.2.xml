@@ -326,8 +326,7 @@
       </Answers>
       <UseTimer>true</UseTimer>
       <Timer>11</Timer>
-      <Type>Single</Type>
-      <AddScore>10</AddScore>
+      <Type>Single</Type>      <AddScore>10</AddScore>
     </Question>
     <Question>
       <questionHint>Gambar OR</questionHint>
@@ -341,15 +340,15 @@
         </Answer>
         <Answer>
           <AnswerInfo>0</AnswerInfo>
-          <IsCorrect>true</IsCorrect>
+          <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <AnswerInfo>1 0</AnswerInfo>
-          <IsCorrect>true</IsCorrect>
+          <IsCorrect>false</IsCorrect>
         </Answer>
         <Answer>
           <AnswerInfo>1 1</AnswerInfo>
-          <IsCorrect>true</IsCorrect>
+          <IsCorrect>false/IsCorrect>
         </Answer>
       </Answers>
       <UseTimer>true</UseTimer>

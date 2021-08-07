@@ -45,7 +45,8 @@ public class LoadingScript : MonoBehaviour
         {
             float progress = Mathf.Clamp01(loadOperation.progress / 0.9f);
             loadingUI.loadingSlider.value = progress;
-            yield return null;
+            loadingUI.loadingText.text = (progress * 100).ToString() + "%";
+            yield return new WaitForSeconds(1);
         }
     }
 }

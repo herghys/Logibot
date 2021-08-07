@@ -199,6 +199,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &799777361596044209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,10 +1946,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 799777361596044214}
     m_Modifications:
     - target: {fileID: 943372327567723631, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8211129b30231ab408536af1fa03d614, type: 2}
-    - target: {fileID: 943372327567723631, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor.b
       value: 1
       objectReference: {fileID: 0}
@@ -1961,10 +1958,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 943372327567723631, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8336526686846633956, guid: 8211129b30231ab408536af1fa03d614, type: 2}
-    - target: {fileID: 943372327567723631, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
@@ -1972,10 +1965,10 @@ PrefabInstance:
       propertyPath: m_enableVertexGradient
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 943372327567723631, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontColorGradientPreset
-      value: 
-      objectReference: {fileID: 11400000, guid: 1b8f681eab2812140ae0e3ba87c3ba7a, type: 2}
+    - target: {fileID: 3338473050457084496, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3353602731125548428, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2004,10 +1997,14 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontAsset
+    - target: {fileID: 6212701645756347090, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_Color.a
+      value: 0.5019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212701645756347090, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_Material
       value: 
-      objectReference: {fileID: 11400000, guid: 8211129b30231ab408536af1fa03d614, type: 2}
+      objectReference: {fileID: 2100000, guid: c5f9b2fa93c7e004d885e647195df0fc, type: 2}
     - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -2021,24 +2018,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8336526686846633956, guid: 8211129b30231ab408536af1fa03d614, type: 2}
-    - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_enableVertexGradient
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6212701645874824594, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontColorGradientPreset
-      value: 
-      objectReference: {fileID: 11400000, guid: 1b8f681eab2812140ae0e3ba87c3ba7a, type: 2}
-    - target: {fileID: 6212701645977493409, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_Alpha
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6212701645977493409, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_Interactable
@@ -2152,18 +2137,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701646337845575, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontSize
-      value: 51.95
+    - target: {fileID: 6212701646337845573, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701646337845575, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 927af90f9b89b9a4bb9484d6058866db, type: 2}
-    - target: {fileID: 6212701646337845575, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 3668957631467171343, guid: 927af90f9b89b9a4bb9484d6058866db, type: 2}
     - target: {fileID: 6212701646337845575, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_enableVertexGradient
       value: 1
@@ -2172,6 +2149,10 @@ PrefabInstance:
       propertyPath: m_fontColorGradientPreset
       value: 
       objectReference: {fileID: 11400000, guid: 1b8f681eab2812140ae0e3ba87c3ba7a, type: 2}
+    - target: {fileID: 6212701647076601049, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6212701647076601050, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -2180,10 +2161,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701647076601050, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
-      objectReference: {fileID: 0}
     - target: {fileID: 6212701647076601053, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_Color.a
       value: 0.6313726
@@ -2215,6 +2192,10 @@ PrefabInstance:
     - target: {fileID: 6212701647328468585, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_Color.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6212701647328468885, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6212701647328468886, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2232,10 +2213,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701647831966648, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8211129b30231ab408536af1fa03d614, type: 2}
+    - target: {fileID: 6212701647831966630, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6212701647831966648, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor.b
       value: 1
@@ -2249,10 +2230,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6212701647831966648, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -8336526686846633956, guid: 8211129b30231ab408536af1fa03d614, type: 2}
-    - target: {fileID: 6212701647831966648, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
@@ -2260,10 +2237,6 @@ PrefabInstance:
       propertyPath: m_enableVertexGradient
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6212701647831966648, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
-      propertyPath: m_fontColorGradientPreset
-      value: 
-      objectReference: {fileID: 11400000, guid: 1b8f681eab2812140ae0e3ba87c3ba7a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd55430869ce96142af8eac1885d1c98, type: 3}
 --- !u!224 &4506901684000856716 stripped

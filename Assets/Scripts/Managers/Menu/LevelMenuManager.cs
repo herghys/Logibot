@@ -97,14 +97,14 @@ public class LevelMenuManager : MonoBehaviour
         {
             //Loading
             GameData.levelToLoad = "Puzzle_Tutorial";
-            fader.FadeTo("Loading");
+            //fader.FadeTo("Loading");
         }
         else
         {
             GameData.levelToLoad = "Puzzle_ " + levelName;
-            fader.FadeTo("Puzzle_ " + levelName);
+            //fader.FadeTo("Puzzle_ " + levelName);
         }
-
+        fader.FadeTo("Loading");
     }
 
     public void GoToTutorial()
